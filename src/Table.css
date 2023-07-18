@@ -1,0 +1,47 @@
+.table-container{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    
+
+}
+
+.table{
+    table-layout: fixed;
+    width: 80%;
+    /* border-collapse: collapse; */
+    border: 2px solid rgb(0, 0, 0);
+    
+    
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* th {
+    background-color: #f2f2f2;
+  } */
+
+  .head{
+    background-color: rgb(79, 119, 118);
+    color: white;
+}
+.body{
+    background-color: rgb(136, 182, 194);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
